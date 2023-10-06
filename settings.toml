@@ -1,0 +1,11 @@
+#export FLASK_ENV=development
+[default]
+BASE_LANGUAGE = "hotdog"
+SQLALCHEMY_DATABASE_URI = 'sqlite:///app.db'
+SQLALCHEMY_TRACK_MODIFICATIONS = false
+VK_GET_TOKEN_URL = ""
+
+[development]
+
+[production]
+

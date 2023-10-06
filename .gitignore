@@ -1,0 +1,6 @@
+
+# Ignore dynaconf secret files
+.secrets.*
+instance/app.db
+__pycache__/
+instance/app.db
