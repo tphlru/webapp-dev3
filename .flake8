@@ -506,3 +506,57 @@ select =
     # try too much
     GRG005,
     # requests no status check
+
+    # -------- https://github.com/nhoad/flake8-unused-arguments --------
+    U100
+    U101
+
+    # -------- https://github.com/best-doctor/flake8-variables-names ----
+    VNE001
+    VNE002
+    VNE003
+
+    # -------- https://github.com/tommilligan/flake8-fixme --------
+    T100
+    T101
+    T102
+
+    # -------- https://github.com/Kludex/flake8-fastapi --------
+    CF001
+    CF002
+    CF008
+    CF009
+    CF011
+
+    # -------- https://github.com/peterjc/flake8-black --------
+    BLK100
+    BLK900
+    BLK901
+    BLK997
+    BLK998
+    BLK999
+
+    # -------- https://flake8.pycqa.org/en/latest/user/error-codes.html --------
+    E999
+    F401
+    F403
+    F406
+    F502
+    F503
+    F504
+    F505
+    F506
+    F507
+    F508
+    F509
+    F541
+    F601
+    F632
+    F701
+    F702
+    F703
+    F704
+    F705
+    F706
+    F707
+    F841
