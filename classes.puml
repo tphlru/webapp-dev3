@@ -1,0 +1,16 @@
+@startuml classes
+set namespaceSeparator none
+class "main.A" as main.A #77AADD {
+  MYVAR : int
+  b
+  util : Optional[UtilsEngine]
+  calculate() -> int
+}
+class "main.B" as main.B #77AADD {
+  MYVAR : int
+  a
+  util : Optional[UtilsEngine]
+}
+main.A --* main.B : a
+main.B --* main.A : b
+@enduml

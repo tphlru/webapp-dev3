@@ -1,5 +1,6 @@
 [flake8]
 # statistics = True
+max-line-length = 120
 select =
     # -------- https://github.com/best-doctor/flake8-adjustable-complexity --------
     CAC001,
@@ -528,13 +529,13 @@ select =
     CF009
     CF011
 
-    # -------- https://github.com/peterjc/flake8-black --------
-    BLK100
-    BLK900
-    BLK901
-    BLK997
-    BLK998
-    BLK999
+    # # -------- https://github.com/peterjc/flake8-black --------
+    # BLK100
+    # BLK900
+    # BLK901
+    # BLK997
+    # BLK998
+    # BLK999
 
     # -------- https://flake8.pycqa.org/en/latest/user/error-codes.html --------
     E999
